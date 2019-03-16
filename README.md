@@ -19,3 +19,6 @@
   * its pretty human readable, but everything is surrounded by the <> brackets
   * but this blob of data is exactly what web browsers receive, because its what web servers send, so they have no choice.
   * go to the same web page in a browser, right-click and inspect.
+
+* Python
+  * Explain importing
