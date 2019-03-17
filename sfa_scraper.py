@@ -7,5 +7,6 @@ print(summary_url)
 response = urlopen(summary_url)
 print(response)
 
-print(response.code)
-print(response.url)
+for key, value in response.headers.items():
+    print(key + ": " + value)
+# Notice how similar it is to:  `curl -I -XGET https://finance.yahoo.com/quote/TSLA?p=TSLA`
