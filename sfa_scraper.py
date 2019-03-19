@@ -13,14 +13,8 @@ for company in companies:
 
     qt = tsla_html.find(id = "quote-summary")
     bid = qt.find(attrs={"data-test":"BID-value"}).getText()
-
-    bid_list = bid.split('x')
-    new_list = []
-    for item in bid_list:
-        item = item.strip()
-        item = float(item)
-        new_list.append(item)
-    price, volume = new_list
+    
+    price, volume = [float(item) for item in bid.split('x')]
 
     print("The bid price is {} and current volume is {}".format(price, volume))
 
