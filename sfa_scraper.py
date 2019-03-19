@@ -19,4 +19,5 @@ def fetch_bids(companies):
         print("The bid price is {} and current volume is {}".format(price, volume))
 
         stock_bids[company] = {"bid" : price, "volume": volume}
-        return stock_bids
+
+    return stock_bids
