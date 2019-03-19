@@ -1,6 +1,5 @@
 import sys
 import os
-import json
 import requests
 
 def main():
@@ -8,7 +7,7 @@ def main():
     ticker = 'MSFT'
     summary_url = 'https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=' + ticker +'&apikey=' + api_key
     response = requests.get(summary_url)
-    json_data = json.loads(response.text)
+    json_data = response.json()
     print(json_data)
 
 
