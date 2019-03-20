@@ -6,6 +6,35 @@
 * Scraper example
 * REST API example
 
+## Setting up your development Environment
+### Python and Pip
+1. Install python on [windows](https://www.youtube.com/watch?v=S8oYT5am8j4) or [mac](https://www.youtube.com/watch?v=8BiYGIDCvvA%3Cbr%3E%3Cbr%3EPlease)
+2. After the video, verify which versions you have with:
+    * `python --version`
+    * `python2 --version`
+    * `python3 --version`  
+If that did not work on windows [you might need to add python to your Path](https://geek-university.com/python/add-python-to-the-windows-path/)
+3. Confirm that pip came with it, which it should have. Try each of these 3 commands to see which
+  * `pip --version`
+  * `pip2 --version`
+  * `pip3 --version`  
+If you have none of them, go here: https://pip.pypa.io/en/stable/installing/#installing-with-get-pip-py
+and follow the directions
+
+(Alternative method would be with homebrew but I'll leave that for those who want to figure it out)
+### Text Editor
+I recommend a lightweight editor like atom or SublimeText. VS Code is also apparently nice but I am not sure if it requires configuration.
+* Atom - https://atom.io/
+* SublimeText - https://www.sublimetext.com/3
+* VS Code - https://code.visualstudio.com/Download
+
+### Git
+Typing `git --version` in the terminal should prompt you to download. If not or if on windows, then go to https://git-scm.com/download/mac
+
+### Install some Python packages
+This will save time on Saturday
+`pip3 install beautifulsoup4 twilio pytz`
+
 ## Web Technologies
 * HTTP
   * Protocol (agreed-upon way of sending messages back and forth)
@@ -20,5 +49,5 @@
   * but this blob of data is exactly what web browsers receive, because its what web servers send, so they have no choice.
   * go to the same web page in a browser, right-click and inspect.
 
-* Python
+### Python
   * Explain importing
