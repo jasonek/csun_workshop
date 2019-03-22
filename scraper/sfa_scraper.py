@@ -17,9 +17,9 @@ def fetch_bid(ticker):
         summary_url = 'https://finance.yahoo.com/quote/' + ticker + '?p=' + ticker
         response = urlopen(summary_url)
 
-        tsla_html = BeautifulSoup(response, "html.parser")
+        html = BeautifulSoup(response, "html.parser")
 
-        qt = tsla_html.find(id = "quote-summary")
+        qt = html.find(id = "quote-summary")
         bid = qt.find(attrs={"data-test":"BID-value"}).getText()
 
         return [float(item) for item in bid.split('x')]
