@@ -42,6 +42,7 @@ This will save time on Saturday
 
 ## Web Technologies
 * HTTP
+  * [Go here for a great introduction. Do not worry about memorizing details but instead let the information help you to build a mental model of how it works](https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)
   * Protocol (agreed-upon way of sending messages back and forth)
   * Traditional "world wide web" internet, but not the only protocol used over the internet to communicate
   * Web server is a machine that lives at a certain IP address/domain and responds to requests. To convey to the requester whether the server was successful or not, it will also send back an HTTP status code. 200 means good. You've probably seen 404 Not Found and 500 internal server error in a web browser
