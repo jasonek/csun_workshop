@@ -2,13 +2,17 @@ import sys
 from sfa_scraper import get_stock_bids, get_market_caps
 
 def main():
-    tickers = ['TSLA', 'XOM', 'ORCL']
-    market_caps = get_market_caps(tickers)
-    print(market_caps)
+    company_info = {}
 
-    # it is cleaner code to break up operations into
-    # well-named, descriptive/contextual variables. but we could do:
-    # print(get_stock_bids('TSLA', 'XOM', 'ORCL']))
+    tickers = ['TSLA', 'XOM', 'ORCL']
+    bids = get_stock_bids(tickers)
+    market_caps = get_market_caps(tickers)
+
+    company_info.update(bids)
+    for ticker in tickers:
+        company_info[ticker]['Market Cap'] = market_caps[ticker]['Market Cap']
+
+    print(company_info)
 
 
 if __name__ == '__main__':
