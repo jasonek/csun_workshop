@@ -23,7 +23,7 @@ If you have none of them, follow the directions: https://pip.pypa.io/en/stable/i
 
 (Alternative method would be with homebrew but I'll leave that for those who want to figure it out)
 ### Text Editor
-I recommend a lightweight editor like Atom or SublimeText. I am not sure if requires configuration or not. I will be using Atom.
+I recommend a lightweight editor like Atom or SublimeText. I hear good things about VSCode but am not sure if it requires configuration or not. I will be using Atom.
 * Atom - https://atom.io/
 * SublimeText - https://www.sublimetext.com/3
 * VS Code - https://code.visualstudio.com/Download
