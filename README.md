@@ -14,26 +14,31 @@
     * `python2 --version`
     * `python3 --version`  
 If that did not work on windows [you might need to add python to your Path](https://geek-university.com/python/add-python-to-the-windows-path/)
-3. Confirm that pip came with it, which it should have. Try each of these 3 commands to see which
+3. Confirm that pip came with it, which it should have. Try each of these 3 commands to see which version(s) you have
   * `pip --version`
   * `pip2 --version`
   * `pip3 --version`  
-If you have none of them, go here: https://pip.pypa.io/en/stable/installing/#installing-with-get-pip-py
-and follow the directions
+If you have none of them, follow the directions: https://pip.pypa.io/en/stable/installing/#installing-with-get-pip-py
+
 
 (Alternative method would be with homebrew but I'll leave that for those who want to figure it out)
 ### Text Editor
-I recommend a lightweight editor like atom or SublimeText. VS Code is also apparently nice but I am not sure if it requires configuration.
+I recommend a lightweight editor like Atom or SublimeText. I am not sure if requires configuration or not. I will be using Atom.
 * Atom - https://atom.io/
 * SublimeText - https://www.sublimetext.com/3
 * VS Code - https://code.visualstudio.com/Download
 
 ### Git
-Typing `git --version` in the terminal should prompt you to download. If not or if on windows, then go to https://git-scm.com/download/mac
+Typing `git --version` in a mac terminal should prompt you to download. If not or if on windows, then go to https://git-scm.com/download/
+
+After it is installed, if you open up a terminal window on mac and type `git clone https://github.com/jasonek/csun_workshop.git` then you will download this repository.
+
+For windows you probably have to use Git Bash to do the same. Git Bash should come with the Windows installer.
+Or for either you could click the green "Clone or Download" button.
 
 ### Install some Python packages
 This will save time on Saturday
-`pip3 install beautifulsoup4 twilio pytz`
+`pip3 install beautifulsoup4 twilio pytz virtualenv`
 
 ## Web Technologies
 * HTTP
@@ -49,5 +54,8 @@ This will save time on Saturday
   * but this blob of data is exactly what web browsers receive, because its what web servers send, so they have no choice.
   * go to the same web page in a browser, right-click and inspect.
 
-### Python
-  * Explain importing
+### Python 001
+
+### Scraping Walk-through
+
+### REST API Example
