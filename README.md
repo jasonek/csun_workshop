@@ -56,7 +56,10 @@ This will save time on Saturday
   * go to the same web page in a browser, right-click and inspect.
 
 ### Python 001
+[Python slides](https://docs.google.com/presentation/d/1xzHzm9oo64qkIwwFD6gRfDR6gRwqOnEAdBdZemFaU_E/edit#slide=id.p1)
 
-### Scraping Walk-through
+### Scraper
+[Coding Walk-through](https://docs.google.com/presentation/d/1iSBYnLn_N1LbVIA_bwzgxYNtbXIvbuTd2kAovmg4hGM/edit#slide=id.p)
 
 ### REST API Example
+[REST API](https://docs.google.com/presentation/d/1JJW-ZUsmIVMtsZUBdeUlsVgBjG3J6F1SmQ95fnelzv4/edit#slide=id.g547b16ffbb_0_57)
